@@ -1,0 +1,54 @@
+
+
+.box{
+    height: 450px;
+    width: 100%;
+    position: relative;  
+}
+button{
+    width: 250px;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    }
+.cover{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+}
+.image-box{
+height: 100%;
+}
+.bg-wraper{
+    position: absolute;
+    top: 130px;
+    left: 535px;
+    color: #fff;
+    
+}
+
+/* position property */
+.bg-image{
+    background-image: url(image/download\ \(1\).jfif);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* when we want to use animation related hover we can use below propertyes */
+.title{
+    color: #fff;
+    font-size: 40px;
+    transition-property: all;
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.title:hover{
+    color: aqua;
+    background-color: pink;
+}
