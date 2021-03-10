@@ -47,6 +47,9 @@ height: 100%;
     transition-delay: 0.3s;
     transition-duration: 0.5s;
     transition-timing-function: ease;
+    transition:  all 0.3s ease 0.5s;
+
+    
 }
 .title:hover{
     color: aqua;
