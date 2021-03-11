@@ -43,10 +43,10 @@ height: 100%;
 .title{
     color: #fff;
     font-size: 40px;
-    transition-property: all;
+    /* transition-property: all;
     transition-delay: 0.3s;
     transition-duration: 0.5s;
-    transition-timing-function: ease;
+    transition-timing-function: ease; */
     transition:  all 0.3s ease 0.5s;
 
     
@@ -54,4 +54,18 @@ height: 100%;
 .title:hover{
     color: aqua;
     background-color: pink;
+}
+
+.animation-block{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: absolute;
+    animation-name: cube;
+    animation-duration: 0.5s;
+}
+
+@keyframes cube{
+    from{top:0};
+    to{top:200px}
 }
